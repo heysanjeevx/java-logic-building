@@ -1,0 +1,16 @@
+# Compiled Java
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+out/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sheet PDF - do not republish
+*.pdf
