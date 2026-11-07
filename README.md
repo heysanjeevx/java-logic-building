@@ -4,11 +4,6 @@ My practice solutions for the **Master Java Logic Building Sheet** - from operat
 
 Problem set: [Master Java Logic Building Sheet](https://app.notion.com/p/Master-Java-Logic-Building-Sheet-3c835ef245ed80bf89bedf9743044d1d)
 
-> The sheet is not included in this repo. Module 1 files contain the code
-> from the sheet's questions; from Module 2 onwards each question is described
-> in my own words. Every prediction and solution is my own work.
-
-Questions solved: 0 / 1036
 
 ## Folder Structure
 
