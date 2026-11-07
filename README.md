@@ -16,9 +16,3 @@ Problem set: [Master Java Logic Building Sheet](https://app.notion.com/p/Master-
 - `module-7-pre-dsa` - Module 7 - Pre-DSA Logic Building (225 questions)
 
 Each module is split into sections (for example `module-2-conditionals/2.1-simple-if/`), with one Java file per question.
-
-Every wrong prediction or bug goes into [mistakes-log.md](mistakes-log.md) with one line on why.
-
-## Requirement
-
-JDK 17 or newer.
