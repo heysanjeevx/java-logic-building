@@ -9,13 +9,10 @@ Problem set: _add the link or creator of the original sheet here_
 
 ## What each solution file looks like
 
-**Modules 2-7 - one file per question:**
+Plain and short - one file per question, the question as a one-line comment on top:
 
 ```java
-/*
- * Q07 | Section 2.1 - Simple If | Source: Master Java Logic Building Sheet
- * Question (my words): print "Positive" only if the number is above zero.
- */
+// Q07 | Section 2.1 | print "Positive" only if the number is above zero
 public class Q07_PositiveCheck {
     public static void main(String[] args) {
         int n = 5;
@@ -23,14 +20,12 @@ public class Q07_PositiveCheck {
     }
 }
 
-/*
- * Approach: a single condition, no else branch needed.
- * Mistake I made: (optional, one line)
- */
+// Approach: a single condition, no else branch needed.   (optional)
 ```
 
-**Module 1 - output prediction:** one file per section. I predict on paper,
-write the prediction into `Check.run(...)`, and the program says OK / WRONG.
+Module 1 ("predict the output") files hold just the code from the sheet.
+I predict on paper, run the file, and note every wrong answer in
+[mistakes-log.md](mistakes-log.md).
 
 ## Structure
 
@@ -41,7 +36,8 @@ java-logic-building/
 ├── .gitignore                 .class, IDE files, PDFs
 ├── templates/
 │   └── QXX_Template.java      copy this to start a new question
-├── module-1-operators/        Check.java + one file per section
+├── module-1-operators/
+│   └── 1.1-arithmetic-output/ Q01_Precedence.java, Q02_Precedence.java ...
 ├── module-2-conditionals/
 │   └── 2.1-simple-if/         Q01_<Title>.java, Q02_<Title>.java ...
 ├── module-3-loops/
@@ -57,15 +53,10 @@ so a file can be understood without opening it.
 ## Run
 
 ```bash
-# Module 1
-cd module-1-operators
-javac *.java
-java ArithmeticOutput
-
-# Modules 2-7 (example)
-cd module-2-conditionals/2.1-simple-if
-javac Q07_PositiveCheck.java
-java Q07_PositiveCheck
+# any module (example)
+cd module-1-operators/1.1-arithmetic-output
+javac Q01_Precedence.java
+java Q01_Precedence
 ```
 
 Requires JDK 17 or newer.
