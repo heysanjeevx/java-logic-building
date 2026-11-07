@@ -1,63 +1,29 @@
 # Java Logic Building
 
-My practice solutions for the **Master Java Logic Building Sheet** (7 modules: Operators -> Pre-DSA).
+My practice solutions for the **Master Java Logic Building Sheet** - from operators to pre-DSA logic building, step by step.
+
+Problem set: [Master Java Logic Building Sheet](https://app.notion.com/p/Master-Java-Logic-Building-Sheet-3c835ef245ed80bf89bedf9743044d1d)
 
 > The sheet is not included in this repo. Module 1 files contain the code
 > from the sheet's questions; from Module 2 onwards each question is described
 > in my own words. Every prediction and solution is my own work.
 
-## Structure
+Questions solved: 0 / 1036
 
-```
-java-logic-building/
-├── README.md
-├── mistakes-log.md            every wrong prediction / bug, with one line on why
-├── .gitignore                 .class, IDE files, PDFs
-├── templates/
-│   └── QXX_Template.java      copy this to start a new question
-├── module-1-operators/
-│   └── 1.1-arithmetic-output/ Q01_Precedence.java, Q02_Precedence.java ...
-├── module-2-conditionals/
-│   └── 2.1-simple-if/         Q01_<Title>.java, Q02_<Title>.java ...
-├── module-3-loops/
-├── module-4-functions/
-├── module-5-arrays/
-├── module-6-strings/
-└── module-7-pre-dsa/
-```
+## Folder Structure
 
-Naming: `Q<two-digit number>_<WhatItDoes>.java` (the class has the same name),
-so a file can be understood without opening it.
+- `module-1-operators` - Module 1 - Operators & Output (119 questions)
+- `module-2-conditionals` - Module 2 - Conditional Logic (188 questions)
+- `module-3-loops` - Module 3 - Loops (203 questions)
+- `module-4-functions` - Module 4 - Functions (68 questions)
+- `module-5-arrays` - Module 5 - Arrays (120 questions)
+- `module-6-strings` - Module 6 - Strings (113 questions)
+- `module-7-pre-dsa` - Module 7 - Pre-DSA Logic Building (225 questions)
 
-## Progress
+Each module is split into sections (for example `module-2-conditionals/2.1-simple-if/`), with one Java file per question.
 
-| Section | Topic | Folder | Done |
-|---------|-------|--------|------|
-| 1.1 | Arithmetic Output | `module-1-operators/` | 0 / 30 |
-| 1.2 | Logical Output | `module-1-operators/` | 0 / 25 |
-| 1.3 | Relational Output | `module-1-operators/` | 0 / 22 |
-| 1.4 | Increment & Decrement Output | `module-1-operators/` | 0 / 42 |
-| 2.1 | Simple If | `module-2-conditionals/` | 0 / 25 |
-| 2.2 | If-Else | `module-2-conditionals/` | 0 / 42 |
-| 2.3 | If-Else-If Ladder | `module-2-conditionals/` | 0 / 48 |
-| 2.4 | Ternary | `module-2-conditionals/` | 0 / 38 |
-| 2.5 | Switch-Case | `module-2-conditionals/` | 0 / 35 |
-| 3.1 | While Loop | `module-3-loops/` | 0 / 48 |
-| 3.2 | Do-While Loop | `module-3-loops/` | 0 / 25 |
-| 3.3 | For Loop | `module-3-loops/` | 0 / 50 |
-| 3.4 | Break & Continue | `module-3-loops/` | 0 / 30 |
-| 3.5 | Pattern Printing | `module-3-loops/` | 0 / 50 |
-| 4.1 | Basic Functions | `module-4-functions/` | 0 / 43 |
-| 4.2 | Function Overloading | `module-4-functions/` | 0 / 25 |
-| 5.1 | 1D Array Basics | `module-5-arrays/` | 0 / 40 |
-| 5.2 | 1D Array Operations | `module-5-arrays/` | 0 / 45 |
-| 5.3 | 2D Arrays | `module-5-arrays/` | 0 / 35 |
-| 6.1 | String Basics | `module-6-strings/` | 0 / 40 |
-| 6.2 | String Manipulation | `module-6-strings/` | 0 / 38 |
-| 6.3 | Word-Level Operations | `module-6-strings/` | 0 / 35 |
-| 7.1 | Conditional Thinking | `module-7-pre-dsa/` | 0 / 60 |
-| 7.2 | Looping Logic | `module-7-pre-dsa/` | 0 / 60 |
-| 7.3 | Recursion | `module-7-pre-dsa/` | 0 / 55 |
-| 7.4 | Arrays Logic | `module-7-pre-dsa/` | 0 / 50 |
+Every wrong prediction or bug goes into [mistakes-log.md](mistakes-log.md) with one line on why.
 
-_Update the "Done" column after each section._
+## Requirement
+
+JDK 17 or newer.
