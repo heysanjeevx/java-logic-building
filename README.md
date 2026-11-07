@@ -2,30 +2,9 @@
 
 My practice solutions for the **Master Java Logic Building Sheet** (7 modules: Operators -> Pre-DSA).
 
-Problem set: _add the link or creator of the original sheet here_
-
-> The sheet is not part of this repo. Files describe each question in my own
-> words and refer to it by number (Q1, Q2...). Every solution is my own work.
-
-## What each solution file looks like
-
-Plain and short - one file per question, the question as a one-line comment on top:
-
-```java
-// Q07 | Section 2.1 | print "Positive" only if the number is above zero
-public class Q07_PositiveCheck {
-    public static void main(String[] args) {
-        int n = 5;
-        if (n > 0) System.out.println("Positive");
-    }
-}
-
-// Approach: a single condition, no else branch needed.   (optional)
-```
-
-Module 1 ("predict the output") files hold just the code from the sheet.
-I predict on paper, run the file, and note every wrong answer in
-[mistakes-log.md](mistakes-log.md).
+> The sheet is not included in this repo. Module 1 files contain the code
+> from the sheet's questions; from Module 2 onwards each question is described
+> in my own words. Every prediction and solution is my own work.
 
 ## Structure
 
@@ -49,27 +28,6 @@ java-logic-building/
 
 Naming: `Q<two-digit number>_<WhatItDoes>.java` (the class has the same name),
 so a file can be understood without opening it.
-
-## Run
-
-```bash
-# any module (example)
-cd module-1-operators/1.1-arithmetic-output
-javac Q01_Precedence.java
-java Q01_Precedence
-```
-
-Requires JDK 17 or newer.
-
-## Commit style
-
-```
-Add Section 1.1 arithmetic output (30/30, 4 wrong)
-Add Q01-Q10 simple if programs
-Fix Q07 - missing negative case
-```
-
-One commit per small batch, with a message that says what was added.
 
 ## Progress
 
