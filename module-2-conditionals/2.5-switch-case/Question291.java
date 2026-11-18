@@ -1,7 +1,7 @@
-// Section 2.5 | Q291
+// Section 2.5 | Q292
 import java.util.Scanner;
 
-public class Question291 {
+public class Question292 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
