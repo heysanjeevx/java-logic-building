@@ -1,5 +1,4 @@
 // Section 3.1 | Q345
-
 import java.util.Scanner;
 
 public class Question345 {
