@@ -1,4 +1,4 @@
-// Section 3.1 | Q351
+// Section 3.1 | Q352
 import java.util.Scanner;
 
 public class Question352 {
