@@ -1,4 +1,4 @@
-// Section 3.1 | Q361
+// Section 3.2 | Q361
 
 public class Question361 {
     public static void main(String[] args) {
