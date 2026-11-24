@@ -1,4 +1,4 @@
-// Section 3.1 | Q360
+// Section 3.2 | Q360
 
 public class Question360 {
     public static void main(String[] args) {
